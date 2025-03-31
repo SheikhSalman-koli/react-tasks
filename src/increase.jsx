@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Increase (){
+export default function Count (){
 
     let [count, setCount]= useState(0)
     const inccounter=()=>{
